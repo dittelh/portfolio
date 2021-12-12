@@ -6,20 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <meta name="author" content="Ditte Lykke Hansen">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <img src="assets/img/dittelogo.png" alt="Ditte Lykke Hansen">
-        
+        <div id="headerIcons">
+            <img id="logo" src="assets/img/dittelogo1.png" alt="Ditte Lykke Hansen">
+            <a class="burger" onclick="openMenu()">
+                <img src="assets/img/burger.png" alt="burgerMenu">
+            </a>
+        </div>
+        <div class="hideLinks" id="myLinks">
+            <a href="#home">Home</a>
+            <a href="#aboutMe">About me</a>
+            <a href="#mySkills">My skills</a>
+            <a href="#myProjects">My projects</a>
+            <a href="#contacts">Contact</a>
+        </div>
     </header>
-
-
-
+    <div id="brownBox">
+        <div id="lightBrownCircle"></div>
+        <img id="frontText" src="assets/img/frontText.png" alt="Multimediadesigner">
+        <div id="greyPhotoBox">
+            <img id="ditte" src="assets/img/ditte.png" alt="Ditte portrait">
+        </div>
+    </div>
+    <img id="branch" src="assets/img/gren.png" alt="Branch">
+    <hr class="sectionSeparator">
+    <section>
+        <h1 class="categoryHeadlines">About me</h1>
+        <section class="aboutMeContent">
+            <img class="aboutIcons" src="assets/img/name.png" alt="Person Icon">
+            <section class="aboutText">
+                <h3>Name:</h3>
+                <h3>Ditte Lykke Hansen</h3>
+            </section>
+        </section>
+        <section class="aboutMeContent">
+            <section class="aboutText">
+                <h3>Location:</h3>
+                <h3>Næstved</h3>
+            </section>
+            <img class="aboutIcons" src="assets/img/home.png" alt="Location">
+        </section>
+        <section class="aboutMeContent">
+            <img class="aboutIcons" src="assets/img/educate.png" alt="Education">
+            <section class="aboutText">
+                <h3>Education:</h3>
+                <h3>Multimedia design 20-22</h3>
+            </section>
+        </section>
+        <section id="whoContainer">
+            <h3 id="whoAmI">Who am I?</h3>
+            <p>I'm 24 years old and I live in 
+                Næstved with my boyfriend and two dogs. 
+                I grew up with creative parents and they 
+                taught me how to think different and how 
+                to get my ideas out creatively. 
+                Now I love to create things, see it develop 
+                as I do something, that is why I became a 
+                Multimedia Designer.</p>
+        </section>
+    </section>
+    <hr class="sectionSeparator">
 
 
 
     <footer>
 
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,86 @@
+@font-face {
+    font-family: ashemore;
+    src: url(assets/fonts/ashemore.ttf);
+}
+@font-face {
+    font-family: ashemoreLight;
+    src: url(assets/fonts/ashemoreLight.ttf);
+}
+@font-face {
+    font-family: bely;
+    src: url(assets/fonts/bely.ttf);
+}
+
+.hideLinks{
+    display: none;
+}
+
+.showLinks{
+    display: flex;
+    flex-direction: column;
+    background-color: #a5b2c2;
+    width: 100vw;
+    font-family: bely;
+   padding-bottom: 10%;
+}
+
+.showLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-bottom: 3px solid #d7d7d7;
+    margin-top: 5%;
+}
+
+
+body{
+    margin: 0%;
+    background-image: url("assets/img/mobileBackground.png");
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+.headerShowMenu{
+    background-color: #a5b2c2;
+    padding: unset;
+}
+
+#headerIcons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+#logo{
+    width: 30%;
+}
+
+.sectionSeparator{
+    background-color: #49533a;
+    /* border: 5vw solid #49533a; */
+    border: none;
+    height: 4vw;
+    width: 90vw;
+    border-radius: 10px;
+    margin-top: 0;
+    margin-block-start: 0;    
+    margin-block-end: 0;
+    line-height: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+  }
+  
+  .sticky {
+    padding-top: 102px;
+  }
