@@ -109,3 +109,51 @@ p{
     background-color: #7e9472;
     border-radius: 10px;
 }
+
+#skillsBox{
+    background-color: #aa9786;
+    border-radius: 10px;
+    margin: 10%;
+
+}
+
+.skillsHeadline{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.projectPhoto{
+    width: 30vw;
+    height: 30vw;
+    background-color: #a5b2c2;
+    border-radius: 50%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    margin: 5%;
+}
+
+#trækunst{
+    width: 30vw;
+    height: fit-content;
+}
+
+.readMore{
+    text-decoration: none;
+    color: black;
+    font-family: ashemoreLight;
+    background-color: #7e9472;
+    font-size: 20px;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+#firstContainer{
+    background-color: #d7d7d7;
+    padding: 10% 0 10% 0;
+    
+}
