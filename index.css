@@ -123,19 +123,57 @@ p{
     padding-top: 5%;
 }
 
-.projectPhoto{
-    width: 30vw;
-    height: 30vw;
-    background-color: #a5b2c2;
-    border-radius: 50%;
-    padding: 5%;
-    display: flex;
-    align-items: center;
+.projectTextRight{
+    font-size: 15px;
+    margin: 5% 10% 5% 2.5%;
 }
 
-.container{
+.projectImageRight{
+    width: 40vw;
+    height: 40vw;
+    margin: 5% 10% 5% 2.5%;
+}
+
+.projectTextLeft{
+    font-size: 15px;
+    margin: 5% 2.5% 5% 10%;
     display: flex;
-    margin: 5% 10% 5% 10%;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.projectTextLeft h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectTextRight h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.projectTextLeft p{
+    font-size: 20px;
+    text-align: unset;
+    padding: 0;
+}
+
+.projectTextRight p{
+    font-size: 20px;
+    text-align: unset;
+    padding: 0;
+}
+
+.projectImageLeft{
+    width: 40vw;
+    height: 40vw;
+    margin: 5% 2.5% 5% 10%;
+}
+
+.containerProjects{
+    display: flex;
+    align-items: center;
 }
 
 .readMore{
@@ -146,23 +184,25 @@ p{
     font-size: 20px;
     padding: 3%;
     border-radius: 10px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
+    width: 60%;
 }
 
 #firstContainer{
-    background-color: #d7d7d7;
     padding: 10% 0 10% 0;
    margin-bottom: 10%;
-}
-.projectImage{
-    width: 40vw;
-    height: 40vw;
+   background-image: url("assets/img/rectangle.png");
+   background-position: -150px -60px;
+   overflow: visible;
 }
 
 #secondContainer{
-    background-color: #d7d7d7;
+    /* background-color: #d7d7d7; */
     padding: 10% 0 10% 0;
+    background-image: url("assets/img/rectangle.png");
+    background-position: -150px -60px;
+    overflow: visible;
     
 }
 
