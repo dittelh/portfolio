@@ -134,12 +134,7 @@ p{
 
 .container{
     display: flex;
-    margin: 5%;
-}
-
-#trækunst{
-    width: 30vw;
-    height: fit-content;
+    margin: 5% 10% 5% 10%;
 }
 
 .readMore{
@@ -150,10 +145,33 @@ p{
     font-size: 20px;
     padding: 3%;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 #firstContainer{
     background-color: #d7d7d7;
     padding: 10% 0 10% 0;
+   margin-bottom: 10%;
+}
+.projectImage{
+    width: 40vw;
+    height: 40vw;
+}
+
+#secondContainer{
+    background-color: #d7d7d7;
+    padding: 10% 0 10% 0;
     
 }
+
+.aboutMeContent{
+    display: flex;
+    
+}
+
+.aboutMeIcon{
+    width: 25vw;
+    height: 25vw;
+}
+
