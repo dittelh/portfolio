@@ -1,0 +1,16 @@
+@import url("../style.css");
+@import url("../index.css");
+
+
+#textSection{
+    background-color: #aa9786;
+    border-radius: 10px;
+    margin: 5% 10% 5% 10%;
+    padding: 10%;
+}
+
+body{
+    background-image: unset;
+    background-image: url("../assets/img/undersidebackground.png");
+    background-size: cover;
+}
