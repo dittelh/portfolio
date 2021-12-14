@@ -3,13 +3,14 @@
 #brownBox{
     background-color: #7E766F;
     border-radius: 0 10px 10px 0;
-    margin-top: 15%;
+    margin-top: 30%;
     padding-top: 7%;
     padding-bottom: 7%;
     position: relative;
     z-index: 1;
     height: 35vw;
     width: 90vw;
+    scroll-margin-top: 125px;
 }
 
 #frontText{
@@ -114,7 +115,7 @@ p{
     background-color: #aa9786;
     border-radius: 10px;
     margin: 10%;
-
+    scroll-margin-top: 170px;
 }
 
 .skillsHeadline{
@@ -175,3 +176,14 @@ p{
     height: 25vw;
 }
 
+#aboutMe{
+    scroll-margin-top: 100px;
+}
+
+#myProjects{
+    scroll-margin-top: 85px;
+}
+
+#contact{
+    scroll-margin-top: 85px;
+}

@@ -10,6 +10,16 @@
     font-family: bely;
     src: url(assets/fonts/bely.ttf);
 }
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0%;
+    background-image: url("assets/img/mobileBackground.png");
+    background-size: contain;
+    background-repeat: repeat;
+}
 
 .hideLinks{
     display: none;
@@ -19,9 +29,9 @@
     display: flex;
     flex-direction: column;
     background-color: #a5b2c2;
-    width: 100vw;
+    width: 100%;
     font-family: bely;
-   padding-bottom: 10%;
+    padding-bottom: 10%;
 }
 
 .showLinks a{
@@ -36,16 +46,13 @@
 }
 
 
-body{
-    margin: 0%;
-    background-image: url("assets/img/mobileBackground.png");
-    background-size: contain;
-    background-repeat: repeat;
-}
 
 header{
     display: flex;
     flex-direction: column;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .headerShowMenu{

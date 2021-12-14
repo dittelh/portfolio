@@ -10,7 +10,6 @@
 }
 
 body{
-    background-image: unset;
     background-image: url("../assets/img/undersidebackground.png");
     background-size: cover;
 }
