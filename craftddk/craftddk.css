@@ -12,3 +12,56 @@ body{
     background-image: url("../assets/img/undersidebackground.png");
     background-size: cover;
 }
+
+.slideShowSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("../assets/img/woodlight.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+}
+
+.slideShow{
+    display: flex;
+    align-items: center;
+}
+
+.craftdImage{
+    width: 75%;
+    margin: 5% 5% 0 5%;
+    display: none;
+}
+.imageActive{
+    display:block;
+}
+
+.arrow{
+    font-size: 2.5rem;
+}
+
+.dots{
+    margin-top: 1rem;
+}
+
+.dot{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-color: #7E9472;
+    border-radius: 50%;
+    margin: 0 0.5rem 0 0.5rem;
+}
+
+.dotActive{
+    background-color: #49533A;
+}
+
+.craftdBtn{
+    width: 30% !important; /* Overskirder bredden fra en anden klasse som er benyttet på en anden side*/
+    margin-left: auto;
+    margin-right: auto;
+}
