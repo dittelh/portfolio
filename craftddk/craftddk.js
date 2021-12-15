@@ -2,20 +2,6 @@
 // https://www.w3schools.com/howto/howto_js_slideshow.asp 
 // https://www.w3schools.com/js/js_loop_for.asp
 
-
-//Laver variabler til billederne og til dots'ene
-var image0 = document.getElementById('image0');
-var image1 = document.getElementById('image1');
-var image2 = document.getElementById('image2');
-var image3 = document.getElementById('image3');
-var image4 = document.getElementById('image4');
-
-var dot0 = document.getElementById('dot0');
-var dot1 = document.getElementById('dot1');
-var dot2 = document.getElementById('dot2');
-var dot3 = document.getElementById('dot3');
-var dot4 = document.getElementById('dot4');
-
 //Sætter det aktive Id til at være 0, så det har en værdi
 var activeId = 0;
 

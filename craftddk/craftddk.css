@@ -13,6 +13,10 @@ body{
     background-size: cover;
 }
 
+#craftdSection{
+    margin-top: 20%;
+}
+
 .slideShowSection{
     display: flex;
     justify-content: center;
