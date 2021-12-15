@@ -191,10 +191,10 @@ p{
 
 #firstContainer{
     padding: 10% 0 10% 0;
-   margin-bottom: 10%;
-   background-image: url("assets/img/rectangle.png");
-   background-position: -150px -60px;
-   overflow: visible;
+    margin-bottom: 10%;
+    background-image: url("assets/img/rectangle.png");
+    background-position: -150px -60px;
+    overflow: visible;
 }
 
 #secondContainer{
@@ -203,17 +203,39 @@ p{
     background-image: url("assets/img/rectangle.png");
     background-position: -150px -60px;
     overflow: visible;
-    
 }
 
 .aboutMeContent{
     display: flex;
-    
+    justify-content: center;
+
+}
+
+.contactTextLeft{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: 50%;
+}
+
+.contactTextLeft h3{
+    font-size: 20px;
+}
+
+.contactTextRight h3{
+    font-size: 20px; 
+}
+
+.contactTextRight{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
 }
 
 .aboutMeIcon{
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
+    margin: 5%;
 }
 
 #aboutMe{
