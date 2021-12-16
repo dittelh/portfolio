@@ -74,10 +74,14 @@
     margin-bottom: 0;
 }
 
+.aboutTextLeft{
+    align-items: flex-end;
+}
+
 .aboutIcons{
     width: 25vw;
     height: 25vw;
-    margin: 5%
+    margin: 7%
 }
 
 .categoryHeadlines{
@@ -94,7 +98,7 @@
 h3{
     margin: 0%;
     font-family: ashemoreLight;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p{
@@ -202,12 +206,6 @@ p{
     margin-top: 20%;
     background: #D7D7D7;
     transform: skew(0deg, -10deg) translateY(-120px);
-}
-
-.aboutMeContent{
-    display: flex;
-    justify-content: center;
-
 }
 
 .contactTextLeft{
