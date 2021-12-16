@@ -13,3 +13,18 @@ body{
     background-image: url("../assets/img/undersidebackground.png");
     background-size: cover;
 }
+
+#textLogoContainer{
+    margin-top: 20%;
+}
+
+#logosSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ 
+}
+
+.logos{
+    margin: 1%;
+}
