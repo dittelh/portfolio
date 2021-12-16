@@ -8,6 +8,10 @@
     padding: 10%;
 }
 
+#videoTextSection{
+    margin-top: 20%;
+}
+
 #videoSection{
     display: flex;
     justify-content: center;
