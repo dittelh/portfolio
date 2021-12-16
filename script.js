@@ -37,3 +37,8 @@ function scrollMenu() {
     }
   }
 }
+
+function scrollToTop(){
+  // Indbygget JavaScript funktion, som scroller til den position man ønsker. 
+    scroll(0, 0);
+}
