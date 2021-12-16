@@ -7,6 +7,8 @@
     <title>Code DLH Portfolio</title>
     <meta name="author" content="Ditte Lykke Hansen">
     <link rel="stylesheet" href="codeprojects.css">
+     <!-- Fontawesome -->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
     <header>
@@ -35,14 +37,28 @@
         <a target="_blank" class="readMore" href="https://devditte.dk/favoritten/">Favoritten</a>
         <a target="_blank" class="readMore" href="https://devditte.dk/bollywood/">Bollywood</a>
     </section>
-    <section>
-        <h3>Here are some photos of the projects.
-            Click on them to get them bigger:</h3>
+    <section class="slideShowSection">
+        <h3>Samples of my code projects</h3>
+        <div class="slideShow">
+            <i id="arrowLeft" class="fas fa-angle-left arrow" onclick="previousImage()"></i>
+                <img id="image0" src="../assets/img/favorittenWeb.png" alt="Favoritten preview" class="codeProjectImage imageActive">
+                <img id="image1" src="../assets/img/favorittenCode.png" alt="Favoritten code" class="codeProjectImage">
+                <img id="image2" src="../assets/img/bollywoodWeb.png" alt="Bollywood preview" class="codeProjectImage">
+                <img id="image3" src="../assets/img/bollywoodCode.png" alt="Bollywood code" class="codeProjectImage">
+            <i id="arrowRight" class="fas fa-angle-right arrow" onclick="nextImage()"></i>
+        </div>
+        <div class="dots">
+            <span id="dot0" class="dot dotActive"></span>
+            <span id="dot1" class="dot"></span>
+            <span id="dot2" class="dot"></span>
+            <span id="dot3" class="dot"></span>
+        </div>
     </section>
     <footer>
         <img width="15px" src="../assets/img/copyright.png" alt="copyright">
         <p>Ditte Lykke Hansen</p>
     </footer>
+    <script src="codeprojects.js"></script>
     <script src="../script.js"></script>
 </body>
 </html>
