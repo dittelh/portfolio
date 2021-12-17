@@ -1,10 +1,13 @@
 // Laver variabler
 var header = document.getElementById("headerIcons")
+var headerLinks = document.getElementById("myLinks")
 var headerTop = header.offsetTop;
 var showingMenu = false;
 
 // Funktion til at åbne menuen
 function openMenu() {
+  if(window.innerWidth < 993 ){
+
     // Fjerner eller tilføjer en class, ved at toggle
     var links = document.getElementById("myLinks")
     links.classList.toggle("hideLinks")
@@ -17,6 +20,7 @@ function openMenu() {
     if(headerTop == window.pageYOffset){
       header.classList.toggle("headerShowMenu")
     }
+  }
 }
 
 // Window har en indbygget JavaScript funktion (proberty) "onscroll", som læser om man scroller på siden
@@ -29,11 +33,17 @@ function scrollMenu() {
   // Hvis man er et sted på siden som er højere værdi en headerTop (0), så tilføjer den en class (farve bl.a.)
   if (window.pageYOffset > headerTop) {
     header.classList.add("headerShowMenu")
+    if(window.innerWidth > 993 ){
+      headerLinks.classList.add("headerShowMenu")
+    }
   // Ellers gør den følgende
   } else {
     // Hvis showingMenu er false, så må den gerne fjerne class 
     if(!showingMenu){
       header.classList.remove("headerShowMenu")
+      if(window.innerWidth > 993 ){
+        headerLinks.classList.remove("headerShowMenu")
+      }
     }
   }
 }

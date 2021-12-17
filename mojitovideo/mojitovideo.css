@@ -23,6 +23,12 @@
     padding: 5%;
 }
 
+#youtubeVideo{
+    width: 350px;
+    height: 250px;
+    border: 0;
+} 
+
 footer{
     margin-top: 20%;
 }

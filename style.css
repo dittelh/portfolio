@@ -45,8 +45,6 @@ body {
     margin-top: 5%;
 }
 
-
-
 header{
     display: flex;
     flex-direction: column;
@@ -67,7 +65,7 @@ header{
 }
 
 #logo{
-    width: 30%;
+    width: 60%;
 }
 
 .sectionSeparator{
@@ -94,4 +92,51 @@ footer{
 footer p{
     padding: 0%;
     font-family: ashemoreLight;
+}
+
+#cpLogo{
+    width: 15px;
+}
+
+@media screen and (min-width: 992px) {
+    
+    .burger{
+        display: none;
+    }
+
+    header{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    #headerIcons{
+        width: 30%;
+        padding: 1%;
+    }
+
+    .hideLinks{
+        display: flex;
+        width: 70%;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .hideLinks a{
+        text-decoration: none;
+        color: black;
+        font-family: bely;
+        font-size: 35px;
+    }
+
+    #aLogo{
+        width: 80%;
+    }
+    #logo{
+        width: 70%;
+    }
+
+
+
+
+
 }
