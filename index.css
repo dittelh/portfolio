@@ -257,3 +257,21 @@ p{
     text-decoration: none;
     color: black;
 }
+
+@media screen and (max-width: 410px) {
+    .contactTextLeft h3{
+        font-size: 15px;
+    }
+    
+    .contactTextRight h3{
+        font-size: 15px; 
+    }
+    
+    .aboutMeIcon{
+        width: 15vw;
+        height: 15vw;
+        margin: 5%;
+    }
+
+
+}
