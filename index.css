@@ -115,7 +115,7 @@ p{
     border-radius: 10px;
 }
 
-#skillsBox{
+.skillsBox{
     background-color: #aa9786;
     border-radius: 10px;
     margin: 10%;
@@ -208,6 +208,14 @@ p{
     transform: skew(0deg, -10deg) translateY(-120px);
 }
 
+.contactSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 .contactTextLeft{
     display: flex;
     flex-direction: column;
@@ -229,7 +237,7 @@ p{
     width: 50%;
 }
 
-.aboutMeIcon{
+.contactIcon{
     width: 20vw;
     height: 20vw;
     margin: 5%;
@@ -246,6 +254,7 @@ p{
 #contact{
     scroll-margin-top: 85px;
 }
+
 .arrowUp{
     text-align: right;
     font-size: 200%;
@@ -258,6 +267,8 @@ p{
     color: black;
 }
 
+/*Her starter media query til en lille smartphone*/
+
 @media screen and (max-width: 410px) {
     .contactTextLeft h3{
         font-size: 15px;
@@ -267,11 +278,295 @@ p{
         font-size: 15px; 
     }
     
-    .aboutMeIcon{
+    .contactIcon{
         width: 15vw;
         height: 15vw;
         margin: 5%;
     }
+}
 
+@media screen and (min-width: 992px) {
+    #brownBox{
+        background-color: #7E766F;
+        border-radius: 10px;
+        margin-top: 10%;
+        margin-left: 15%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        position: relative;
+        z-index: 1;
+        height: 5vw;
+        width: 35vw;
+        scroll-margin-top: 125px;
+    }
+    
+    #frontText{
+        z-index: 4; 
+        width: 45%;
+        position: absolute;
+        left: 43%;
+        top: 36%;
+    }
+    
+    #lightBrownCircle{
+        background-color: #AA9786;
+        border-radius: 50%;
+        padding: 5%;
+        width: 12vw;
+        height: 12vw;
+        position: absolute;
+        right: 4%;
+        bottom: 8%;
+        z-index: 2;
+    
+    }
+    
+    #greyPhotoBox{
+        position: relative;
+        background-color: #D7D7D7;
+        border-radius: 10px;
+        margin-left: 4.5%;
+        margin-top: -13%;
+        z-index: 3;
+        width: 20vw;
+        height: 25vw;
+        
+    }
+    
+    #ditte{
+        position: absolute;
+        bottom: 0;
+        right: 15%;
+        width: 90%;
+    }
+    
+    #branch{
+        position: relative;
+        left: 60vw;
+        width: 23%;
+        margin-top: -22%;
+        margin-bottom: -7px;
+    }
+
+    #aboutContent{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #whoAmI{
+        text-align: center;
+        padding: 3%;
+    }
+    
+    .aboutText{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .aboutText h3{
+        font-size: 25px;
+    }
+    
+    .aboutTextLeft{
+        align-items: flex-end;
+    }
+    
+    .aboutIcons{
+        width: 7vw;
+        height: 7vw;
+        margin: 0 2% 0 2%;
+    }
+
+    #whoContainer{
+        background-color: #7e9472;
+        border-radius: 10px;
+        width: 25%;
+        padding: 2%;
+    }
+    
+    #whoContainer p{
+        font-size: 25px;
+        padding: 5%;
+    }
+
+    #whoContainer h3{
+        font-size: 25px;
+    }
+
+
+    #aboutIconsContainer{
+        width: 50%;
+    }
+
+    .categoryHeadlines{
+        text-align: center;
+        font-family: bely;
+        font-size: 40px;
+        margin-top: 5%;
+    }
+
+    #skillsText{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .skillsHeadline{
+        text-align: center;
+        padding-top: 5%;
+        width: 40%;
+    }
+
+    .skillsHeadline h3{
+        font-size: 25px;
+    }
+
+    .skillsHeadline p{
+        font-size: 25px;
+    }
+
+    .skillsBox{
+        margin: 5% 10% 5% 10%;
+        padding: 1%;
+        scroll-margin-top: 170px;
+        width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .projectImageLeft{
+        width: 15vw;
+        height: 15vw;
+        margin: 0 2.5% 5% 10%;
+    }
+
+    .projectImageRight{
+        width: 15vw;
+        height: 15vw;
+        margin: 0 10% 5% 2.5%;
+
+    }
+
+    .containerProjects{
+        justify-content: center;
+    }
+
+    #firstContainer{
+        margin-top: 10%;
+        padding: 5%;
+    }
+
+    .projectTextLeft{
+        margin: 0% 2.5% 5% 10%;
+    }
+    .projectTextRight{
+        margin: 0 10% 5% 2.5%;
+    }
+
+    .projectTextLeft p{
+        font-size: 25px;
+        text-align: unset;
+        padding: 0;
+        margin-bottom: 5%;
+        width: 15vw;
+    }
+    
+    .projectTextRight p{
+        font-size: 25px;
+        text-align: unset;
+        padding: 0;
+        margin-bottom: 5%;
+        width: 15vw;
+    }
+    .projectTextLeft h3{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    
+    .projectTextRight h3{
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .readMore{
+        text-decoration: none;
+        color: black;
+        font-family: ashemoreLight;
+        background-color: #7e9472;
+        font-size: 20px;
+        padding: 0.5vw;
+        border-radius: 10px;
+        display: block;
+        text-align: center;
+        width: 4vw;
+    }
+    #secondContainer{
+        padding: 5% 0 5% 0;
+        margin-bottom: 5%;
+        margin-top: 10%;
+    }
+
+    .contactTextLeft{
+        width: 25%;
+        text-align: unset;
+    }
+
+    .contactTextRight{
+        width: 25%; 
+        text-align: end;
+       }
+
+    .contactTextLeft h3{
+        font-size: 25px;
+        margin: 0 2.5% 0 2.5%;
+    }
+
+    .contactTextRight h3{
+        font-size: 25px;
+        margin: 0 2.5% 0 2.5%;
+    }
+    .contactTextLeft h3 a:hover, .contactTextRight h3 a:hover{
+        text-decoration: underline;
+    }
+
+    .contactIcon{
+        width: 20%;
+        height: auto;
+        margin: 1% 2.5% 1% 2.5%;
+    }
+
+    #contactSections{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .contactSection{
+        flex-direction: row-reverse;    
+        width: 40vw;
+        margin: 3% 0;
+    }
+
+    #aboutMe{
+        scroll-margin-top: 145px;
+    }
+
+    #skillsBox{
+        scroll-margin-top: 145px;
+    }
+    
+    #myProjects{
+        scroll-margin-top: 145px;
+    }
+    
+    #contact{
+        scroll-margin-top: 145px;
+    }
+    
 
 }
+
