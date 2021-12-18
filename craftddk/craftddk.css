@@ -1,11 +1,17 @@
 @import url("../style.css");
 @import url("../index.css");
 
-#textSection{
+#craftdTextSection{
     background-color: #aa9786;
     border-radius: 10px;
     margin: 5% 10% 5% 10%;
-    padding: 10%;
+    padding: 5%;
+}
+
+#craftdTextSection h3{ 
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 body{
@@ -47,6 +53,10 @@ body{
     font-size: 2.5rem;
 }
 
+.arrow:hover{
+    cursor: pointer;
+}
+
 .dots{
     margin-top: 1rem;
 }
@@ -65,7 +75,67 @@ body{
 }
 
 .craftdBtn{
-    width: 30% !important; /* Overskirder bredden fra en anden klasse som er benyttet på en anden side*/
+    min-width: 30% !important; /* Overskirder bredden fra en anden klasse som er benyttet på en anden side*/
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: url("../assets/img/desktopunderside.png");
+    }
+    
+    #craftdSection{
+        margin-top: 10%;
+    }
+
+    #mainContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #craftdTextSection{
+        padding: 2%;
+        width: 30vw;
+        min-height: 27vw;
+        margin: unset;
+    }
+
+    .slideShowSection{
+        width: 30vw;
+        padding: 2%;
+        min-height: 27vw;
+        margin: unset;
+    }
+
+    .slideShowSection h3{
+        font-size: 30px;
+    }
+
+    .slideShow{
+        justify-content: center;
+    }
+
+    .craftdImage{
+        min-width: 22vw;
+    }
+
+    #craftdTextSection h3{ 
+        font-size: 30px;
+        margin-top: 25px;
+    }
+
+    #craftdTextSection p{
+        font-size: 30px;
+    }
+
+    .readMore{
+        font-size: 30px;
+        width: 120px;
+    }
+
+
 }

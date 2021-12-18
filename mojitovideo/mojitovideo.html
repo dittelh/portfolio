@@ -11,13 +11,13 @@
 <body>
     <header>
         <nav id="headerIcons">
-            <a href="../index.html"><img id="logo" src="../assets/img/dittelogo1.png" alt="Ditte Lykke Hansen"></a>
+            <a id="aLogo" href="../index.html"><img id="logo" src="../assets/img/dlh.png" alt="Ditte Lykke Hansen"></a>
             <a class="burger" onclick="openMenu()">
                 <img src="../assets/img/burger.png" alt="burgerMenu">
             </a>
         </nav>
         <nav class="hideLinks" id="myLinks">
-            <a href="../index.html#brownBox" onclick="openMenu()">Home</a>
+            <a href="../index.html" onclick="openMenu()">Home</a>
             <a href="../index.html#aboutMe" onclick="openMenu()">About me</a>
             <a href="../index.html#skillsBox" onclick="openMenu()">My skills</a>
             <a href="../index.html#myProjects" onclick="openMenu()">My projects</a>
@@ -26,14 +26,16 @@
     </header>
     <section id="videoTextSection">
         <h1 class="categoryHeadlines">Mojito video</h1>
-        <p id="textSection">This video was a school project. We switched through the different kind of roles. But my role was mainly filming and editing the video. 
-           The assignment was to make a "how to" video. It was edited in Premier Pro and Adobe aftereffects.
-        </p>
-    </section>
-    <section id="videoSection">
-        <h3>Click to watch the movie</h3>
-        <iframe id="youtubeVideo" src="https://www.youtube.com/embed/iUYsGNpwY2U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
+        <div id="mainContent">
+            <p id="textSection">This video was a school project. We switched through the different kind of roles. But my role was mainly filming and editing the video. 
+            The assignment was to make a "how to" video. It was edited in Premier Pro and Adobe aftereffects.
+            </p>
+            <section id="videoSection">
+                <h3>Click to watch the movie</h3>
+                <iframe id="youtubeVideo" src="https://www.youtube.com/embed/iUYsGNpwY2U" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+        </div>
+    </section> 
     <footer>
         <img id="cpLogo" src="../assets/img/copyright.png" alt="copyright">
         <p>Ditte Lykke Hansen</p>

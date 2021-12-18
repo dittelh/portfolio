@@ -19,6 +19,9 @@ body {
     background-image: url("assets/img/mobileBackground.png");
     background-size: contain;
     background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .hideLinks{
@@ -51,6 +54,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 10;
+    width: 100%;
 }
 
 .headerShowMenu{
@@ -80,13 +84,17 @@ header{
     line-height: 0;
 }
 
+#lastSectionSeparator{
+    margin-bottom: 10%;
+}
+
 
 footer{
     background-color: #a5b2c2;
     display: flex;
     align-items: center;
     padding: 3%;
-    margin-top: 10%;
+    margin-top: auto;
 }
 
 footer p{
@@ -155,11 +163,17 @@ footer p{
     }
     
     footer{
-        margin-top: 5%;
+        /* margin-top: 5%; */
+        padding: 1%;
     }
 
+    #lastSectionSeparator{
+        margin-bottom: 5%;
+    }
+}
 
-
-
-
+@media screen and (max-width: 1300px) {
+    .hideLinks a{
+        font-size: 25px;
+    }
 }

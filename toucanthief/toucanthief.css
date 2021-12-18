@@ -9,6 +9,11 @@
     padding: 10%;
 }
 
+#textSection h3{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
 body{
     background-image: url("../assets/img/undersidebackground.png");
     background-size: cover;
@@ -29,14 +34,7 @@ body{
     display: flex;
     justify-content: center;
     width: 30vw;
-    margin: 2%;
-}
-
-#aContainer{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    margin: 2% auto;
 }
 
 .slideShowSection{
@@ -72,6 +70,10 @@ body{
     font-size: 2.5rem;
 }
 
+.arrow:hover{
+    cursor: pointer;
+}
+
 .dots{
     margin-top: 1rem;
 }
@@ -89,3 +91,61 @@ body{
     background-color: #49533A;
 }
 
+@media screen and (min-width: 992px){
+    body{
+        background-image: url("../assets/img/desktopunderside.png");
+    }
+
+    #toucanThiefSection{
+        margin-top: 10%;
+    }
+
+    #mainContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .readMore{
+        display: flex;
+        align-items: center;
+        width: 20%;
+    }
+
+    #textSection{
+        padding: 2%;
+        width: 30vw;
+        min-height: 22vw;
+        margin: unset;
+    }
+
+    #textSection p{
+        font-size: 30px;
+    }
+
+    #textSection h3{
+        font-size: 30px;
+    }
+    
+    .slideShowSection{
+        width: 30vw;
+        padding: 2%;
+        min-height: 22vw;
+        margin: unset;
+    }
+
+    .slideShowSection h3{
+        font-size: 30px;
+    }
+
+    .toucanImage{
+        width: 55%;
+    }
+
+    .readMore{
+        font-size: 30px;
+        width: 160px;
+    }
+
+}

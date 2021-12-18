@@ -1,13 +1,6 @@
 @import url("../style.css");
 @import url("../index.css");
 
-#textSection{
-    background-color: #aa9786;
-    border-radius: 10px;
-    margin: 5% 10% 5% 10%;
-    padding: 10%;
-}
-
 body{
 
     background-image: url("../assets/img/undersidebackground.png");
@@ -16,6 +9,19 @@ body{
 
 #codeSection{
     margin-top: 20%;
+}
+
+#codeTextSection h3{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#codeTextSection{
+    background-color: #aa9786;
+    border-radius: 10px;
+    margin: 5% 10% 5% 10%;
+    padding: 10%;
 }
 
 .readMore{
@@ -64,12 +70,17 @@ body{
     object-fit: contain;
     display: none;
 }
+
 .imageActive{
     display:block;
 }
 
 .arrow{
     font-size: 2.5rem;
+}
+
+.arrow:hover{
+    cursor: pointer;
 }
 
 .dots{
@@ -87,4 +98,67 @@ body{
 
 .dotActive{
     background-color: #49533A;
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: url("../assets/img/desktopunderside.png");
+    }
+
+    #codeSection{
+        margin-top: 10%;
+    }
+
+    #mainContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #codeTextSection{
+        padding: 5%;
+        width: 30vw;
+        min-height: 22vw;
+        margin: unset;
+    }
+
+    #codeTextSection h3{
+        text-align: center;
+        margin-top: 5%;
+        font-size: 30px;
+    }
+
+    #textSection{
+        font-size: 30px;
+        margin: unset;
+        display: flex;
+        align-items: center;
+    }
+
+    #aContainer{
+        display: flex;
+    }
+    
+    .slideShowSection{
+        width: 30vw;
+        padding: 2%;
+        min-height: 30vw;
+        margin: unset;
+    }
+
+    .slideShowSection h3{
+        font-size: 30px;
+    }
+
+    .codeProjectImage{
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .readMore{
+        font-size: 30px;
+        width: 120px;
+    }
 }

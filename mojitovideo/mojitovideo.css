@@ -38,9 +38,60 @@ body{
     background-size: cover;
 }
 
+/* Styling for små smartphones */
 @media screen and (max-width: 410px){
    #youtubeVideo{
        width: 220px;
        height: 200px;
    } 
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: url("../assets/img/desktopunderside.png");
+    }
+
+    #mainContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #videoTextSection{
+        margin-top: 10%;
+    }
+
+    #textSection{
+        padding: 5%;
+        width: 28vw;
+        min-height: 12vw;
+        margin: unset;
+        display: flex;
+        align-items: center;
+    }
+
+    #videoSection{
+        width: 30vw;
+        padding: 2%;
+        min-height: 22vw;
+        margin: unset;
+    }
+
+    #videoSection h3{
+        font-size: 30px;
+    }
+
+    #textSection{
+        font-size: 30px;
+    }
+
+    #youtubeVideo{
+        width: 550px;
+        min-height: 370px;
+    }
+
+
+
 }

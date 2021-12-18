@@ -10,7 +10,6 @@
     z-index: 1;
     height: 35vw;
     width: 90vw;
-    scroll-margin-top: 125px;
 }
 
 #frontText{
@@ -56,7 +55,7 @@
     left: 35vw;
     width: 55%;
     margin-top: 5%;
-    margin-bottom: -1.1vw;
+    margin-bottom: -0.2vw;
 }
 
 .aboutMeContent{
@@ -119,7 +118,6 @@ p{
     background-color: #aa9786;
     border-radius: 10px;
     margin: 10%;
-    scroll-margin-top: 170px;
 }
 
 .skillsHeadline{
@@ -247,12 +245,16 @@ p{
     scroll-margin-top: 100px;
 }
 
+#skillsContainer{
+    scroll-margin-top: 100px;
+}
+
 #myProjects{
-    scroll-margin-top: 85px;
+    scroll-margin-top: 125px;
 }
 
 #contact{
-    scroll-margin-top: 85px;
+    scroll-margin-top: 100px;
 }
 
 .arrowUp{
@@ -260,6 +262,10 @@ p{
     font-size: 200%;
     margin: 0 6% 5% 0;
     display: block !important; /* Overskrider Fontawesome styling*/
+}
+
+.arrowUp:hover{
+    cursor: pointer;
 }
 
 .contactLinks{
@@ -297,7 +303,6 @@ p{
         z-index: 1;
         height: 5vw;
         width: 35vw;
-        scroll-margin-top: 125px;
     }
     
     #frontText{
@@ -395,7 +400,6 @@ p{
         font-size: 25px;
     }
 
-
     #aboutIconsContainer{
         width: 50%;
     }
@@ -492,17 +496,10 @@ p{
     }
 
     .readMore{
-        text-decoration: none;
-        color: black;
-        font-family: ashemoreLight;
-        background-color: #7e9472;
-        font-size: 20px;
-        padding: 0.5vw;
-        border-radius: 10px;
-        display: block;
-        text-align: center;
-        width: 4vw;
+        font-size: 25px;
+        width: 8vw;
     }
+
     #secondContainer{
         padding: 5% 0 5% 0;
         margin-bottom: 5%;
@@ -515,7 +512,7 @@ p{
     }
 
     .contactTextRight{
-        width: 25%; 
+        width: 25vw; 
         text-align: end;
        }
 
@@ -566,7 +563,5 @@ p{
     #contact{
         scroll-margin-top: 145px;
     }
-    
-
 }
 

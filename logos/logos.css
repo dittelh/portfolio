@@ -14,17 +14,58 @@ body{
     background-size: cover;
 }
 
-#textLogoContainer{
+#logoSection{
     margin-top: 20%;
 }
 
-#logosSection{
+#logosContainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
- 
 }
 
 .logos{
     margin: 1%;
+    width: 45%;
+}
+
+#logosSection{
+    margin-top: 20%;
+}
+
+@media screen and (min-width: 992px){
+    body{
+        background-image: url("../assets/img/desktopunderside.png");
+    }
+
+    #logosSection{
+        margin-top: 10%;
+    }
+
+    #mainContent{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+
+    #logosContainer{
+        width: 40vw;
+    }
+    .logos{
+        width: 30%;
+        margin: 3%;
+    }
+
+    #textSection{
+        font-size: 30px;
+        padding: 5%;
+        width: 28vw;
+        min-height: 10vw;
+        margin: unset;
+        display: flex;
+        align-items: center;
+    }
+
 }

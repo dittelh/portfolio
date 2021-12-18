@@ -19,9 +19,9 @@
             </a>
         </nav>
         <nav class="hideLinks" id="myLinks">
-            <a href="#brownBox" onclick="openMenu()">Home</a>
+            <a href="#" onclick="openMenu(), scrollToTop()">Home</a>
             <a href="#aboutMe" onclick="openMenu()">About me</a>
-            <a href="#skillsBox" onclick="openMenu()">My skills</a>
+            <a href="#skillsContainer" onclick="openMenu()">My skills</a>
             <a href="#myProjects" onclick="openMenu()">My projects</a>
             <a href="#contact" onclick="openMenu()">Contact</a>
         </nav>
@@ -76,7 +76,7 @@
         </div>
     </section>
     <hr class="sectionSeparator">
-    <section id="skillsBox">
+    <section id="skillsContainer">
         <h2 class="categoryHeadlines">My skills</h2>
         <div id="skillsText" class="skillsBox">
             <section class="skillsHeadline">
@@ -190,7 +190,7 @@
     </div>
     </section>
     <i class="fas fa-arrow-up arrowUp" onclick="scrollToTop()"></i>
-    <hr class="sectionSeparator">
+    <hr id="lastSectionSeparator" class="sectionSeparator">
     <footer>
         <img id="cpLogo" src="assets/img/copyright.png" alt="copyright">
         <p>Ditte Lykke Hansen</p>
