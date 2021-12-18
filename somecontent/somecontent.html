@@ -13,7 +13,9 @@
 <body>
     <header>
         <nav id="headerIcons">
-            <a id="aLogo" href="../index.html"><img id="logo" src="../assets/img/dlh.png" alt="Ditte Lykke Hansen"></a>
+            <a id="aLogo" href="../index.html">
+                <img id="logo" src="../assets/img/dlh.png" alt="Ditte Lykke Hansen">
+            </a>
             <a class="burger" onclick="openMenu()">
                 <img src="../assets/img/burger.png" alt="burgerMenu">
             </a>
@@ -28,8 +30,10 @@
     </header>
     <section id="someSection">
         <h1 class="categoryHeadlines">SoMe content</h1>
+        <!-- Prøvede med main tag, men den må ikke ligge i section, så måtte skifte den til en div, for at styre mit indhold -->
         <div id="mainContent">
-            <p id="textSection">I run 3 different Facebook sites and one instagram profile for CRAFTD.dk. 
+            <p id="textSection">
+                I run 3 different Facebook sites and one instagram profile for CRAFTD.dk. 
                 The Facebook sites I post for is SPORT24OUTLET Næstved, Trækunst & Træskilte and CRAFTD.dk.
                 My role is to occasionally update, take pictures and write the posts
             </p>
@@ -37,12 +41,12 @@
                 <h3>Samples of my SoMe posts</h3>
                 <div class="slideShow">
                     <i id="arrowLeft" class="fas fa-angle-left arrow" onclick="previousImage()"></i>
-                        <img id="image0" src="../assets/img/some/craftdfb750W.png" alt="Craftd Facebook" class="someImage imageActive">
-                        <img id="image1" src="../assets/img/some/craftdinsta750W.png" alt="Craftd insta" class="someImage">
-                        <img id="image2" src="../assets/img/some/craftdinstapote750W.png" alt="Craftd insta" class="someImage">
-                        <img id="image3" src="../assets/img/some/sport24dragt750W.png" alt="sport2 VM" class="someImage">
-                        <img id="image4" src="../assets/img/some/sport24fb1750W.png" alt="sport24" class="someImage">
-                        <img id="image5" src="../assets/img/some/trækunstkonk750W.png" alt="trækunst konkurrence" class="someImage">
+                    <img id="image0" src="../assets/img/some/craftdfb750W.png" alt="Craftd Facebook" class="someImage imageActive">
+                    <img id="image1" src="../assets/img/some/craftdinsta750W.png" alt="Craftd insta" class="someImage">
+                    <img id="image2" src="../assets/img/some/craftdinstapote750W.png" alt="Craftd insta" class="someImage">
+                    <img id="image3" src="../assets/img/some/sport24dragt750W.png" alt="sport2 VM" class="someImage">
+                    <img id="image4" src="../assets/img/some/sport24fb1750W.png" alt="sport24" class="someImage">
+                    <img id="image5" src="../assets/img/some/trækunstkonk750W.png" alt="trækunst konkurrence" class="someImage">
                     <i id="arrowRight" class="fas fa-angle-right arrow" onclick="nextImage()"></i>
                 </div>
                 <div class="dots">

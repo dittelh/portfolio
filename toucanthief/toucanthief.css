@@ -1,7 +1,6 @@
 @import url("../style.css");
 @import url("../index.css");
 
-
 #textSection{
     background-color: #aa9786;
     border-radius: 10px;
@@ -147,5 +146,4 @@ body{
         font-size: 30px;
         width: 160px;
     }
-
 }

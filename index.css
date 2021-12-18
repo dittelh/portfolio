@@ -30,7 +30,6 @@
     right: 8%;
     bottom: 5%;
     z-index: 2;
-
 }
 
 #greyPhotoBox{
@@ -40,7 +39,6 @@
     z-index: 3;
     width: 50vw;
     height: 70vw;
-    
 }
 
 #ditte{
@@ -274,7 +272,6 @@ p{
 }
 
 /*Her starter media query til en lille smartphone*/
-
 @media screen and (max-width: 410px) {
     .contactTextLeft h3{
         font-size: 15px;
@@ -323,7 +320,6 @@ p{
         right: 4%;
         bottom: 8%;
         z-index: 2;
-    
     }
     
     #greyPhotoBox{
@@ -350,7 +346,7 @@ p{
         left: 60vw;
         width: 23%;
         margin-top: -22%;
-        margin-bottom: -7px;
+        margin-bottom: -1px;
     }
 
     #aboutContent{
@@ -507,12 +503,12 @@ p{
     }
 
     .contactTextLeft{
-        width: 25%;
+        width: 15vw;
         text-align: unset;
     }
 
     .contactTextRight{
-        width: 25vw; 
+        width: 15vw; 
         text-align: end;
        }
 

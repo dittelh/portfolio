@@ -13,7 +13,9 @@
 <body>
     <header>
         <nav id="headerIcons">
-            <a id="aLogo" href="index.html"><img id="logo" src="assets/img/dlh.png" alt="Ditte Lykke Hansen"></a>
+            <a id="aLogo" href="index.html">
+                <img id="logo" src="assets/img/dlh.png" alt="Ditte Lykke Hansen">
+            </a>
             <a class="burger" onclick="openMenu()">
                 <img src="assets/img/burger.png" alt="burgerMenu">
             </a>
@@ -26,6 +28,7 @@
             <a href="#contact" onclick="openMenu()">Contact</a>
         </nav>
     </header>
+    <!-- Bruger div, til at style med på min topforside -->
     <div id="brownBox">
         <div id="lightBrownCircle"></div>
         <img id="frontText" src="assets/img/frontText.png" alt="Multimediadesigner">
@@ -37,6 +40,7 @@
     <hr class="sectionSeparator">
     <section id="aboutMe">
         <h2 class="categoryHeadlines">About me</h2>
+        <!-- Bruger div'er til at pakke indhold ind med, så det flexer som jeg vil det -->
         <div id="aboutContent">
             <div id="aboutIconsContainer">
                 <div class="aboutMeContent">
@@ -78,6 +82,7 @@
     <hr class="sectionSeparator">
     <section id="skillsContainer">
         <h2 class="categoryHeadlines">My skills</h2>
+        <!-- Bruger div til at pakke al teksten ind og style den, som en helhed -->
         <div id="skillsText" class="skillsBox">
             <section class="skillsHeadline">
                 <h3> Communication</h3>
@@ -103,6 +108,7 @@
     </section>
     <hr class="sectionSeparator">
     <h1 class="categoryHeadlines" id="myProjects">My projects</h1>
+    <!-- Pakker det ind i div'er, så jeg kan få det til at flexe og se ud som det skal + kunne give det hver sin skrå baggrund -->
     <div id="firstContainer">
         <div class="containerProjects">
             <img class="projectImageLeft" src="assets/img/craftdcircle.png" alt="Craftddk logo">
@@ -129,6 +135,7 @@
             </section>
         </div>
     </div>
+    <!-- Pakker det ind i div'er, så jeg kan få det til at flexe og se ud som det skal + kunne give det hver sin skrå baggrund -->
     <div id="secondContainer">
         <div class="containerProjects">
             <section class="projectTextLeft">
@@ -159,35 +166,44 @@
     <section id="contact">
         <h2 class="categoryHeadlines">Contact</h2>
         <div id="contactSections">
+            <!-- Bruger div'er til at pakke indhold ind med, så det flexer som jeg vil det -->
             <div class="contactSection">
                 <section class="contactTextLeft">
-                <h3>Mail:</h3>
-                <h3><a class="contactLinks" href="mailto:dittehansen143@gmail.com">dittehansen143@gmail.com</a></h3>
-            </section>
-            <img class="contactIcon" src="assets/img/mail.png" alt="Mail">
+                    <h3>Mail:</h3>
+                    <h3>
+                        <a class="contactLinks" href="mailto:dittehansen143@gmail.com">dittehansen143@gmail.com</a>
+                    </h3>
+                </section>
+                <img class="contactIcon" src="assets/img/mail.png" alt="Mail">
+            </div>
+            <div class="contactSection">
+                <img class="contactIcon" src="assets/img/mobilesmall.png" alt="Mobile">
+                <section class="contactTextRight">
+                    <h3>Mobile:</h3>
+                    <h3>
+                        <a class="contactLinks" href="tel:21779013">+4521779013</a>
+                    </h3>
+                </section>
+            </div>
+            <div class="contactSection">
+                <section class="contactTextLeft">
+                    <h3>Github:</h3>
+                    <h3>
+                        <a class="contactLinks" target="_blank" href="https://github.com/dittelh">https://github.com/dittelh</a>
+                    </h3>
+                </section>
+                <img class="contactIcon" src="assets/img/github.png" alt="Github">
+            </div>
+            <div class="contactSection">
+                <img class="contactIcon" src="assets/img/linkedin.png" alt="Linkedin">
+                <section class="contactTextRight">
+                    <h3>LinkedIn:</h3>
+                    <h3>
+                        <a class="contactLinks" target="_blank" href="http://bitly.ws/jTEz">http://bitly.ws/jTEz</a>
+                    </h3>
+                </section>
+            </div>
         </div>
-        <div class="contactSection">
-            <img class="contactIcon" src="assets/img/mobilesmall.png" alt="Mobile">
-            <section class="contactTextRight">
-                <h3>Mobile:</h3>
-                <h3><a class="contactLinks" href="tel:21779013">+4521779013</a></h3>
-            </section>
-        </div>
-        <div class="contactSection">
-            <section class="contactTextLeft">
-                <h3>Github:</h3>
-                <h3><a class="contactLinks" target="_blank" href="https://github.com/dittelh">https://github.com/dittelh</a></h3>
-            </section>
-            <img class="contactIcon" src="assets/img/github.png" alt="Github">
-        </div>
-        <div class="contactSection">
-            <img class="contactIcon" src="assets/img/linkedin.png" alt="Linkedin">
-            <section class="contactTextRight">
-                <h3>LinkedIn:</h3>
-                <h3><a class="contactLinks" target="_blank" href="http://bitly.ws/jTEz">http://bitly.ws/jTEz</a></h3>
-            </section>
-        </div>
-    </div>
     </section>
     <i class="fas fa-arrow-up arrowUp" onclick="scrollToTop()"></i>
     <hr id="lastSectionSeparator" class="sectionSeparator">

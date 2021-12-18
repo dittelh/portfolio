@@ -163,7 +163,6 @@ footer p{
     }
     
     footer{
-        /* margin-top: 5%; */
         padding: 1%;
     }
 
@@ -172,6 +171,7 @@ footer p{
     }
 }
 
+/* Har lavet en styling til nav linksene, så de så ordentlige ud her også */
 @media screen and (max-width: 1300px) {
     .hideLinks a{
         font-size: 25px;
