@@ -1,6 +1,11 @@
 @import url("../style.css");
 @import url("../index.css");
 
+body{
+    background-image: url("../assets/img/undersidebackground.png");
+    background-size: cover;
+}
+
 #textSection{
     background-color: #aa9786;
     border-radius: 10px;
@@ -28,15 +33,6 @@
     height: 250px;
     border: 0;
 } 
-
-footer{
-    margin-top: 20%;
-}
-
-body{
-    background-image: url("../assets/img/undersidebackground.png");
-    background-size: cover;
-}
 
 /* Styling for små smartphones */
 @media screen and (max-width: 410px){
