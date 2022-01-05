@@ -54,6 +54,7 @@
     width: 55%;
     margin-top: 5%;
     margin-bottom: -0.2vw;
+    
 }
 
 .aboutMeContent{
@@ -87,7 +88,7 @@
     font-size: 35px;
 }
 
-#whoAmI{
+.whoAmI{
     text-align: center;
     padding: 3%;
 }
@@ -106,16 +107,23 @@ p{
     text-align: justify;
 }
 
-#whoContainer{
+.whoContainer{
     margin: 10%;
+    padding: 5%;
     background-color: #7e9472;
     border-radius: 10px;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+#whoTextDiv{
+    width: 100%;
 }
 
 .skillsBox{
     background-color: #aa9786;
     border-radius: 10px;
     margin: 10%;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
 }
 
 .skillsHeadline{
@@ -195,6 +203,8 @@ p{
     margin-top: 50%;
     background: #D7D7D7;
     transform: skew(0deg, -10deg) translateY(-120px); /*Inspired from: https://www.youtube.com/watch?v=v2Jw9pa6sFo*/
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 #secondContainer{
@@ -202,8 +212,35 @@ p{
     margin-top: 20%;
     background: #D7D7D7;
     transform: skew(0deg, -10deg) translateY(-120px);
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
+
+/* Inspiration video: https://www.youtube.com/watch?v=huVJW23JHKQ d. 29/12/21 */
+.from-left {
+    grid-column: 2 / 3;
+    transform: translateX(-50%);
+}
+  
+.from-right {
+    grid-column: 3 / 4;
+    transform: translateX(50%);
+}
+
+.from-left,
+.from-right{
+    transition: opacity 250ms ease-in, transform 400ms ease-in;
+    opacity: 0;
+}
+
+.from-left.appear,
+.from-right.appear{
+    transform: translateX(0);
+    opacity: 1;
+}
+/* Funktionen stopper her */
+  
 .contactSection{
     display: flex;
     justify-content: center;
@@ -358,6 +395,10 @@ p{
         text-align: center;
         padding: 3%;
     }
+
+    #whoTextDiv{
+        width: 50%;
+    }
     
     .aboutText{
         display: flex;
@@ -380,24 +421,29 @@ p{
         margin: 0 2% 0 2%;
     }
 
-    #whoContainer{
+    .whoContainer{
         background-color: #7e9472;
         border-radius: 10px;
-        width: 25%;
+        width: 55%;
         padding: 2%;
+        margin-right: 25%;
     }
     
-    #whoContainer p{
+    .whoContainer p{
         font-size: 25px;
         padding: 5%;
     }
 
-    #whoContainer h3{
+    .whoContainer h3{
         font-size: 25px;
     }
 
+    
     #aboutIconsContainer{
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
     }
 
     .categoryHeadlines{

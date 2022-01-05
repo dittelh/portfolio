@@ -18,7 +18,7 @@ function nextImage(){
     // Her laver den en loop, for at hurtig læse en masse forskellige værdier
     // Sætter en ny variabel til at være 0 hvergang funktionen bliver kørt. 
     // Så længe variablen "i" er mindre end 6, så vil den pluse sig med 1 (sådan så loopet forsætter, med at køre)
-    // Når i pluser sig selv så den er lige 6, så stopper den loopet
+    // Når i pluser sig selv så den er lig 6, så stopper den loopet
     // Når den kører loopet, så tjekker den hvad i er og hvad det aktive Id er, sådan så den tilføjer og fjerne classes
     for (let i = 0; i < 6; i++) {
         if(i == activeId){
@@ -50,7 +50,7 @@ function previousImage(){
             document.getElementById('dot' + i).classList.add('dotActive');
         } else {
             document.getElementById('image' + i).classList.remove('imageActive');
-            document.getElementById('dot' + i).classList.remove('dotActive');
+            document.getElementById('dot' + i).classList.remove('dotActive'); 
         }
     }
 }

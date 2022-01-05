@@ -21,6 +21,7 @@ body{
     border-radius: 10px;
     margin: 5% 10% 5% 10%;
     padding: 10%;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
 }
 
 .readMore{
@@ -53,6 +54,7 @@ body{
     margin: 5%;
     padding: 5%;
     text-align: center;
+    box-shadow: 1px 1px 20px 5px rgba(0, 0, 0, 0.3);
 }
 
 .slideShow{
